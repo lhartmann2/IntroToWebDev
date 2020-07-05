@@ -7,6 +7,47 @@
 <html lang="en">
 	<head>
 		<title>Logan's Portfolio</title>
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		
+		<style>
+			
+			caption {
+				font-weight: bold;
+				font-size: 1.2em;
+				margin-bottom: 8px;
+			}
+			
+			table, th, td {
+				border: 1px solid #2C2B3C;
+				border-collapse: collapse;
+				padding: 5px 10px;
+			}
+			
+			table {
+				width: 90%;
+				margin: auto;
+			}
+			
+			tr {
+				height: 30px;
+			}
+			
+			th {
+				color: #b76d68;
+				background-color: #1b2432;
+			}
+			
+			tr:nth-child(odd) {
+				color: #b76d68;
+				background-color: #121420;
+			}
+			
+			tr:nth-child(even) {
+				color: #b76d68;
+				background-color: #403f4c;
+			}
+			
+		</style>
 	</head>
 	
 	<body>
@@ -15,44 +56,51 @@
 			<h1>Portfolio for Logan Hartmann</h1>
 		</header>
 		
-		<nav>
-			<hr />
+		<nav class="border">
 			<p><a href="projects.html">Projects</a></p>
 			<p><a href="testimonials.html">Testimonials</a></p>
 			<p><a href="contact.html">Contact</a></p>
-			<hr />
+			<div class="clear-float"></div>
 		</nav>
 		
 		<section>
-			<article id="about-me">
+			<article class="border" id="about-me">
 				<h2> <em>About Me</em> </h2>
-				<img src="images/portrait.png" alt="Portrait of Logan Hartmann" style="line thick black"/>
+				<img src="images/portrait.png" alt="Portrait of Logan Hartmann" style="float:left;"/>
 				<p> Resides in Rochester, MN </p>
 				<p> Experience in game design, server administration and <strong>Java</strong> </p>
+				<div style="clear:both"></div>
 			</article>
 			
-			<article id="past-experiences">
+			<article id="experience">
 				<h2> <em>Past Experiences</em> </h2>
-				<img src="images/games.jpg" alt="Mediocre Games" />
+				<img src="images/games.jpg" alt="Mediocre Games"/>
+				<div class="right-content">
 				<table border="1">
 					<caption>Employment History</caption>
-					<tr>
-						<th>Company</th>
-						<th>Title</th>
-					</tr>
-					<tr>
-						<td>LHP</td>
-						<td>President</td>
-					</tr>
-					<tr>
-						<td>Caffrey's</td>
-						<td>Delivery Scrub</td>
-					</tr>
-					<tr>
-						<td>Jank Operations</td>
-						<td>Game Designer</td>
-					</tr>
+					<thead>
+						<tr>
+							<th>Company</th>
+							<th>Title</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>LHP</td>
+							<td>President</td>
+						</tr>
+						<tr>
+							<td>Caffrey's</td>
+							<td>Delivery Scrub</td>
+						</tr>
+						<tr>
+							<td>Jank Operations</td>
+							<td>Game Designer</td>
+						</tr>
+					</tbody>
 				</table>
+				</div>
+				<div class="clear-float"></div>
 			</article>
 			
 			<article id="hobbies">
@@ -82,6 +130,7 @@
 						<li>Jazz</li>
 						</ul>
 				</ul>
+				<div class="clear-float"></div>
 			</article>
 		</section>
 		

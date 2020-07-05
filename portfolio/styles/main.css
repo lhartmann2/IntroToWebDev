@@ -1,0 +1,122 @@
+/*
+Creator: Logan Hartmann
+Date Created: 07/04/2020
+Date Last Modified:
+*/
+body {
+	background-color: #403f4c;
+	font-family: arial, helvetica, sans-serif;
+	color: #b76d68;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+article img {
+	float:left;
+}
+
+article {
+	margin-bottom: 16px;
+}
+
+.clear-float {
+	clear:both;
+}
+
+.right-content {
+	float:left;
+}
+
+nav a {
+	background-color: #403f4c;
+	color: #b76d68;
+	padding: 8px;
+	border: thin solid #1b2432;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float: left;
+}
+
+nav a:hover {
+	background-color: #121420;
+	color: #b76d68;
+}
+
+nav a:active {
+	font-weight: bold;
+}
+
+nav a:visited {
+	color: #2c2b3c;
+}
+
+header, footer {
+	background-color: #2c2b3c;
+	color: #b76d68;
+	height: 100px;
+	text-align: center;
+	padding: 30px 10px 20px 10px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+nav {
+	border-top: 3px dashed #1b2432;
+	border-bottom: 3px dashed #1b2432;
+	margin-top: 4px;
+}
+
+label, fieldset{
+    font-size: 1.1em;
+}
+
+input[type=text] {
+    border: 2px solid #1b2432;
+    width: 50%;
+    padding: 8px 8px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+fieldset {
+    background-color: #1b2432;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing:	border-box;
+}
+
+select, textarea {
+    margin: 12px 0;
+    font-size: 1em;
+}
+
+input[type=submit], input[type=reset] {
+    font-size: 1.2em;
+    background-color: #1b2432;
+    color: #b76d68;
+    padding: 4px 8px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #f2eded;
+    color: #b76d68;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 2px solid #f2eded;
+    border-radius: 3px;
+    background-color: #fff;
+    resize: none;
+}
