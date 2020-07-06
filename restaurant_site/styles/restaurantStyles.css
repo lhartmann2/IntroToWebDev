@@ -41,22 +41,19 @@ article img {
 
 nav {
 	text-align: center;
+	border-top: thin #5b7d87 solid;
+	border-bottom: thin #5b7d87 solid;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
-nav a {
-	color: #3A405A;
+nav .btn {
+	background-color: #5b7d87;
+	color: #fef9ff;
 }
 
-nav a:hover {
+nav .btn:hover {
 	font-weight: bold;
-}
-
-nav a:visited {
-	color: #685044;
-}
-
-nav a:active {
-	text-decoration: none;
 }
 
 .required {
@@ -71,20 +68,18 @@ body {
 }
 
 h1 {
-	margin-bottom: -15px;
+	margin-bottom: 20px;
 }
 
 h4 {
 	font-size: 25px;
 	font-weight: bold;
-	margin-bottom: -20px;
 }
 
 h5 {
 	font-size: 16px;
 	font-style: italic;
-	margin-bottom: 20px;
-	padding-bottom: 10px;
+	font-weight: bold;
 }
 
 section {

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Display Evens</title>
+		<script type="text/javascript" src="displayEvens.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>Display Evens</h1>
+			<form name="numberFun" onsubmit="return validateItems();" onreset="resetForm();" class="form-default">		
+				<div class="formGroup">
+					<label for="startNum">Starting Number</label>
+					<input type="number" class="form-control" id="startNum">
+				</div>
+				
+				<div class="formGroup">
+					<label for="endNum">Ending Number</label>
+					<input type="number" class="form-control" id="endNum">
+				</div>
+				
+				<div class="formGroup">
+					<label for="stepNum">Step</label>
+					<input type="number" class="form-control" id="stepNum">
+				</div>
+				
+				<button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+				<button type="reset" id="resetButton" class="btn btn-default">Reset</button>
+			</form>
+			
+			<span id="results" style="display: none;"></span>
+		
+		</div>
+	</body>
+</html>
